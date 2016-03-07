@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 "Libre Baskerville", serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.chapter-num {
+  display: block;
+  font-style: italic;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+.colon {
+  display: none;
+}
+
+h1,
+p {
+  margin: 0 0 1.5rem;
+  font-weight: normal;
+}
+
+span {
+  font-style: italic;
+  color: #fff;
+  display: block;
+}
+
+header {
+  padding: 1em;
+  background-color: #259f95;
+  color: #fff;
+  border-bottom: 1px solid #1e7c74;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+main {
+  padding: 1em;
+}
